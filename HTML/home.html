@@ -1,79 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <style>
-      nav {
-  background-color: #333;
-  padding: 10px;
-}
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #111;
-}
-
-        .container {
-            display: flex;
-            flex-wrap: wrap;
-            
-          
-          justify-content: center;
-        }
-    
-        .card {
-          width: 230px;
-          background-color: #f1f1f1;
-          margin: 10px;
-          padding: 20px;
-          border-radius: 5px;
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        }
-        .gallery {
-         display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        max-width: 800px;
-        margin: 0 auto;
-}
-
-.image {
-  margin: 10px;
-  width: 200px;
-  height: 270px;
-  perspective: 1000px;
-}
-
-
-.image:hover img {
-  transform: rotateY(180deg);
-}
-        
-    
-        
-</style>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="../CSS/style.css">
  
     
     
@@ -83,9 +16,12 @@ li a:hover {
   <nav>
     <ul>
       <li><a href="#">Home</a></li>
+      <li style="margin-top: -4px;"><a href="./cart.html"> Cart <img width="20" height="20" src="https://img.icons8.com/3d-fluency/20/shopping-cart-loaded.png"  alt="shopping-cart-loaded"/></a></li>
       <li><a href="#">About</a></li>
       <li><a href="#">Services</a></li>
       <li><a href="#">Contact</a></li>
+    
+    
     </ul>
   </nav>
     <br>
@@ -96,7 +32,7 @@ li a:hover {
 
       <picture>
        
-        <div class="gallery">
+        <div class="gallery" style="margin-top: -40px;">
           <h1 style="-webkit-text-fill-color:rgba(93, 85, 85, 0.968);font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 90px;">Shopping</h1>
             <div class="image">
           
